@@ -6,8 +6,14 @@ This repository contains the database design and SQL queries for a simplified Fo
 * **`QUERY.sql`**: Contains all the SQL commands to create tables, insert sample data, and perform the 7 required queries.
 
 ## Project Links
-* **ERD Diagram**: [এখানে আপনার Draw.io এর পাবলিক লিংকটি পেস্ট করুন]
-* **Viva Video**: [এখানে আপনার ইউটিউব বা ড্রাইভের ভিডিও লিংকটি পেস্ট করুন]
+ERD Link:
+https://drive.google.com/file/d/1te0LLBUOZ62-hdBTUUUvfDh5opT4fdXe/view?usp=sharing
+
+GitHub Repository Link:
+https://github.com/Shihab5500/Football-Ticket-Booking-System
+
+Interview Video Link: 
+https://drive.google.com/file/d/16EB1Z3W83IZFaymXD1WIpJcsL9ztdx4C/view?usp=drivesdk
 
 ## Technologies Used
 * PostgreSQL
