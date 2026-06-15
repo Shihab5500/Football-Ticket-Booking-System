@@ -1,6 +1,3 @@
--- ==========================================
--- পর্ব ১: টেবিল তৈরি করা (Table Creation)
--- ==========================================
 
 -- 1. Users Table তৈরি
 CREATE TABLE Users (
@@ -30,9 +27,9 @@ CREATE TABLE Bookings (
     total_cost DECIMAL(10, 2) NOT NULL
 );
 
--- ==========================================
+
 -- পর্ব ২: ডেমো ডাটা ইনসার্ট করা (Sample Data)
--- ==========================================
+
 
 INSERT INTO Users (user_id, full_name, email, role, phone_number) VALUES
 (1, 'Tanvir Rahman', 'tanvir@mail.com', 'Football Fan', '+8801711111111'),
@@ -54,9 +51,9 @@ INSERT INTO Bookings (booking_id, user_id, match_id, seat_number, payment_status
 (504, 2, 101, NULL, NULL, 150),
 (505, 3, 102, 'C-20', 'Pending', 120);
 
--- ==========================================
+
 -- পর্ব ৩: অ্যাসাইনমেন্টের ৭টি কুয়েরি (Queries)
--- ==========================================
+
 
 -- Query 1: Champions League-এর Available ম্যাচগুলো বের করা
 SELECT match_id, fixture, base_ticket_price
